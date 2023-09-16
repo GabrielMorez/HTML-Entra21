@@ -1,0 +1,40 @@
+body{
+    background-color: black
+}
+
+.titulo{
+    color: whitesmoke;
+}
+.destaque{
+    color: aqua;
+}
+
+.conteudo{
+    color: gainsboro;
+}
+.imagem{
+    align-self: flex-end;
+}
+
+.botoes{
+
+}
+
+.botaoGit{
+    background-color: aqua;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.botaoInstagram{
+    background-color: aqua;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
