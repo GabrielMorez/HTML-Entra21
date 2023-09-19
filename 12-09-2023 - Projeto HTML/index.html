@@ -11,7 +11,8 @@
 <body>
     <header class="cabecalho">
         <nav>
-            <a href="https://www.tudogostoso.com.br/" target="_blank">Outras Receitas</a>
+            <input class="pesquisa" type="search" placeholder="Pesquisar">
+            <a class="outrasReceitas" href="https://www.tudogostoso.com.br/" target="_blank">Outras Receitas</a>
         </nav>
     </header>
     <main class="principal">
@@ -62,22 +63,36 @@
             </p>
         </div>
     </section>
-    <section class="duvidas">
-        <h2>Ficou com dúvidas? Veja este vídeo!</h2>
-        <iframe class="video" width="719" height="361" src="https://www.youtube.com/embed/__rtbSd_OwI" title="Bolo fofinho de cenoura com calda de chocolate - Imperdível!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section>
+        <div class = "duvidas">
+            <h2>Ficou com dúvidas? Veja este vídeo!</h2>
+            <iframe class="video" width="719" height="361" src="https://www.youtube.com/embed/__rtbSd_OwI" title="Bolo fofinho de cenoura com calda de chocolate - Imperdível!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </section>
     <section class="encontreLoja">
         <h2>Encontre minha loja!</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.8029959056184!2d-49.28461882365601!3d-26.81440078910499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94defb5d49d3eabb%3A0x2c7b795dd475bd98!2sRip%C3%A3o%20Capitais!5e0!3m2!1spt-PT!2sbr!4v1694562446913!5m2!1spt-PT!2sbr" width="719" height="361" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.8029959056184!2d-49.28461882365601!3d-26.81440078910499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94defb5d49d3eabb%3A0x2c7b795dd475bd98!2sRip%C3%A3o%20Capitais!5e0!3m2!1spt-PT!2sbr!4v1694562446913!5m2!1spt-PT!2sbr" width="719" height="361" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </section>
     <section class="faleComigo">
-        <h2 class="subtitulo">Fale comigo:</h2>
-        <form class="texto">
-            <label >Digite seu e-mail:</label>
-            <input type="email" placeholder="Digite seu e-mail">
-            <label>Digite seu telefone:</label>
-            <input type="tel" placeholder="Digite seu telefone">
-        </form>
+        <div class="formulario">
+            <h2>Fale comigo:</h2>
+            <form>
+                <div class="nome">
+                    <label>Digite seu nome:</label>
+                    <input type="text" placeholder="Digite seu nome">
+                </div>
+                <div class="email">
+                    <label>Digite seu e-mail:</label>
+                    <input type="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="telefone">
+                <label>Digite seu telefone:</label>
+                <input type="tel" placeholder="Digite seu telefone">
+                </div>
+            </form>
+        </div>
     </section>
     <footer class="rodape">
         <p>&copy Todos os direitos reservados.</p>

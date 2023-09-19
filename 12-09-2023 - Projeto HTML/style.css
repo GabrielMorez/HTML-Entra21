@@ -15,14 +15,24 @@ body{
     display: flex;
     background-color: rgb(231, 231, 231);
     height: 10vh;
-    justify-content: end;
     align-items: center;
 }
 
-a{
+.outrasReceitas{
     text-decoration: none;
     color: rgb(0, 143, 124);
     font-weight: 500;
+    padding-left: 500px;
+}
+
+.pesquisa{
+    background-color: rgb(231, 231, 231);
+    text-decoration: solid rgb(0, 143, 124);
+    height: 25px;
+    width: 600px;
+    margin-left: 650px;
+    border: solid rgb(0, 143, 124);
+    border-radius: 10px;
 }
 
 .titulo{
@@ -76,16 +86,67 @@ a{
     align-items: center;
     margin-top: 2%;
     margin-left: 35%;
-    margin-right: 35%;
+    margin-right: 35%;  
 }
 
 .duvidas{
     display: flex;
     flex-direction: column;
-    background-color: white;
-    color: rgb(0, 143, 124);
-    width: 40%;
+    color: white;
     margin-top: 2%;
-    margin-left: 30%;
-    margin-right: 30%;
+    gap: 10px;
+    align-items: center;
+}
+
+.video{
+    border: solid white;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.video:hover{
+    opacity: 1;
+}
+
+.encontreLoja{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mapa{
+    border: solid white;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.mapa:hover{
+    opacity: 1;
+}
+
+.faleComigo{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.rodape{
+    background-color: rgb(231, 231, 231);
+    color:rgb(0, 143, 124);
+    font-weight: 500;
+    padding-block: 10px;
+    padding-left: 10px;
 }
