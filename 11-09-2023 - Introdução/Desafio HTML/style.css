@@ -1,40 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: black
 }
 
+.texto{
+    width: 60%;
+    position: relative;
+}
+
 .titulo{
     color: whitesmoke;
+    width: 60%;
+    font-size: 35px;
 }
+
 .destaque{
     color: aqua;
 }
 
 .conteudo{
+    display: flex;
     color: gainsboro;
+    width: 60%;
+    font-size: 25px;
 }
 .imagem{
-    align-self: flex-end;
+    float: right;
 }
 
 .botoes{
-
-}
-
-.botaoGit{
-    background-color: aqua;
-    border-radius: 5px;
-    width: 100px;
-    height: 50px;
-}
-
-.botaoInstagram{
-    background-color: aqua;
-    border-radius: 5px;
-    width: 100px;
-    height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 a{
     text-decoration: none;
     color: black;
+}
+
+.botaoGit{
+    display: flex;
+    background-color: aqua;
+    border-radius: 10px;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+}
+
+.botaoInstagram{
+    display: flex;
+    background-color: aqua;
+    border-radius: 10px;
+    align-items: center;
+    width: 150px;
+    height: 50px;
 }
